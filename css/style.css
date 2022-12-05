@@ -43,7 +43,7 @@ main {
   align-items: stretch;
   align-content: center;
 
-  padding: 0 30px;
+  /* padding: 0 30px; */
   
 }
 
@@ -75,7 +75,8 @@ h2 {
   letter-spacing: 0.3px;
   text-align: left;
   color: #0da2c4;
-  padding: 10px 0px 10px 10px;
+  /* padding: 10px 0px 10px 10px; */
+  padding: 10px 20px 0 20px;
 }
 
 img {
@@ -124,14 +125,14 @@ font-family: 'Lato', serif;
 }
 
 .project {
-  padding: .3em;
   margin: 2vh;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5);
   width: 100%;
   background-color: #03232d;
   padding: .3em;
   /* border: 5px solid #92f6fb; */
-  margin: 2vh;
+  border-style: outset;
+  border-color:#d0fdfe;
 }
 
 
@@ -164,14 +165,8 @@ font-family: 'Lato', serif;
   text-align: left;
   color: #e1d9d1;
   padding: 10px 0px 10px 10px;
-  border-top: 1px solid #e1d9d1;
-}
-
-.logo {
-  width: 115px;
-  height: 21.1px;
-  object-fit: contain;
-  padding: 20px;
+  /* border-top: 1px solid #e1d9d1; */
+  padding: 0 20px 20px 20px;  
 }
 
 .container {
